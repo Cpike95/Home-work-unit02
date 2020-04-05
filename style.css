@@ -1,0 +1,69 @@
+body {
+    padding:15px;
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
+
+}
+
+h1 {
+    font-size: 35px;
+}
+
+#nav-links {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    text-transform: uppercase;
+}
+#nav-links a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#nav-links:hover {
+  bottom: 1px solid black;
+}
+
+#nav-links a:hover {
+    color: black
+    }
+/* Body with card funnels */
+.contained {
+    margin: 20px;
+}
+
+.card {
+    padding: 0;
+    display:block;
+}
+#card {
+    border: none;
+}
+#card h5, p {
+    color: transparent;
+}
+
+#card h5, p:hover {
+    color: white;
+    transition: color 0.5s;
+}
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8F8F8;
+    color: black;
+    text-align: center;
+ }
