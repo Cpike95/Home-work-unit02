@@ -56,7 +56,7 @@ body {
 }
 
 #nav-links:hover {
-  bottom: black;
+  color: black;
 }
 
 #nav-links a:hover {
