@@ -2,61 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel=Stylesheet href="style.css">
     <title>Contact</title>
 </head>
 <body>
-    <section class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1><span class="badge badge-secondary">Curtis Pike</span></h1>
-                </div> 
-            <div class="row">
-                <div class="col">
-                    <ul class="nav justify-content-end" id="nav-links">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> 
-    </section>  
-    <section class="contact">
-        <div class="row">
-          <div class="col-6">
+    <div class="header">
+        <h1 id="name">Curtis Pike</h1>
+        <ul id="nav-links"> 
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <section class="form">
+        <div class="container-form"> 
+            <h1>Contact</h1>
+            <hr>
             <form>
-                <div class="form-row">
-                    <div class="col">
-                        <label for="exampleFormControlTextarea1">Name</label>
-                      <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                  </div>
-                 <div class="form-group">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>     
+                <div class="form-group">
                     <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input class="form-control" type="text" placeholder="Default input">
                 </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
         </div>
-        <div class="button">
-            <button type="button" class="btn btn-secondary btn-lg">Send</button>
-        </div>
-      </form>
-          </div>
-        </div>
-    </section>
+    </section>  
+      
     <footer>
         <span id="footer">@copyRight</span>
     </footer>
