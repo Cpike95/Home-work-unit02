@@ -80,7 +80,7 @@ body {
 }
 
 
-/* Body with card funnels Portfolio page */
+/* Body with card funnel Portfolio page  Styling*/
 .container {
     background-color: white;
     margin: 25px;
@@ -127,7 +127,7 @@ body {
      float: right;
  }
 
-
+/* Footer that is place on every page */
 #footer {
     position: fixed;
     left: 0;
