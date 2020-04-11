@@ -65,13 +65,19 @@ body {
     transition: 0.5s;    
 }
 
-
 /* About page styling */
 #about-card{    
     margin: 10px;
     padding: 25px;
 }
-
+#me {
+    display:flex;
+    
+}
+.card-text {
+    padding: 5px;
+    margin:5px;
+}
 
 
 /* Body with card funnels Portfolio page */
@@ -117,6 +123,11 @@ body {
     padding: 10px;
     width: 70%;
 }
+ #card-text {
+     float: right;
+ }
+
+
 #footer {
     position: fixed;
     left: 0;
@@ -127,7 +138,7 @@ body {
     text-align: center;
  }
  
- @media (max-width: 640px) {
+ @media screen and (max-width: 700px) and (min-width: 500px) {
     .header {
         width: 100%;
         font-size: 15px; 
@@ -162,22 +173,41 @@ body {
         margin-bottom: 20px;
     }
     .container-form {
-        display:inline-block; 
-         
+        display:inline-block;  
+    }
+    #me {
+        width: auto;
+        display: block;
     }
 }
 
 
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) and (min-width:680px) {
   
- .portfolio{
-        text-align: center;
-    }
 
     .container {
-        text-align: center;
+        text-align: left;
         display:inline-block; 
         width: auto; 
+    }
+    #me {
+        width: auto;
+    }
+    .img {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .container-form {
+        display:inline-block; 
+    }
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+    .container {
+        text-align: left;
+        display:inline-block; 
+        width: 70%; 
     }
     .img {
         justify-content: center;
@@ -188,4 +218,3 @@ body {
          
     }
 }
-
